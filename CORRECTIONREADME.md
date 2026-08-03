@@ -6,14 +6,14 @@ O GarTICS **NÃO deve tentar descobrir, validar ou registrar a resposta dada pel
 
 O site não precisa saber:
 
-* qual era a palavra;
-* o que alguém falou;
-* se a resposta estava próxima;
-* se a palavra era TICs;
-* se a palavra era tecnologia;
-* quem falou primeiro;
-* quem desenhou;
-* qual foi a justificativa dada oralmente.
+- qual era a palavra;
+- o que alguém falou;
+- se a resposta estava próxima;
+- se a palavra era TICs;
+- se a palavra era tecnologia;
+- quem falou primeiro;
+- quem desenhou;
+- qual foi a justificativa dada oralmente.
 
 Tudo isso acontece presencialmente.
 
@@ -188,13 +188,13 @@ O organizador escolhe:
 
 ### Time
 
-* Amarelo
-* Ciano
+- Amarelo
+- Ciano
 
 ### Pontos
 
-* +1
-* +2
+- +1
+- +2
 
 Depois:
 
@@ -331,28 +331,28 @@ Nenhum time recebe pontos.
 Não precisamos mais de:
 
 ```typescript
-word
-technology
-tics
-guessingTeam
-classification
+word;
+technology;
+tics;
+guessingTeam;
+classification;
 ```
 
 A rodada pode ser simplesmente:
 
 ```typescript
 type Round = {
-    number: number;
+  number: number;
 
-    drawingTeam: "yellow" | "cyan";
+  drawingTeam: "yellow" | "cyan";
 
-    result: "correct" | "wrong";
+  result: "correct" | "wrong";
 
-    points: 0 | 1 | 2;
+  points: 0 | 1 | 2;
 
-    pointsTeam?: "yellow" | "cyan";
+  pointsTeam?: "yellow" | "cyan";
 
-    drawingSvg: string;
+  drawingSvg: string;
 };
 ```
 
@@ -594,15 +594,15 @@ O GarTICS fornece as ferramentas para o organizador registrar rapidamente a deci
 
 Isso deixa o sistema:
 
-* mais simples;
-* mais rápido;
-* mais confiável;
-* mais adequado para uma apresentação presencial;
-* menos suscetível a erros;
-* sem necessidade de banco de palavras;
-* sem necessidade de IA;
-* sem necessidade de reconhecimento de voz;
-* sem necessidade de backend.
+- mais simples;
+- mais rápido;
+- mais confiável;
+- mais adequado para uma apresentação presencial;
+- menos suscetível a erros;
+- sem necessidade de banco de palavras;
+- sem necessidade de IA;
+- sem necessidade de reconhecimento de voz;
+- sem necessidade de backend.
 
 ---
 
@@ -626,7 +626,7 @@ O GarTICS passa a ter apenas quatro responsabilidades principais:
 └─────────────────────────────────────┘
 ```
 
-O jogo presencial cuida de:
+O jogo presencial cuida de
 
 ```text
 SORTEIO

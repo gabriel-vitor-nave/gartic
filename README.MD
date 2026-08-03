@@ -2650,4 +2650,4 @@ ou:
 
 GarTICS — Desenhe. Adivinhe. Entenda a Tecnologia.
 
-A segunda opção é a mais adequada para apresentar o projeto como atividade escolar.
+A segunda opção é a mais adequada para apresentar o projeto como atividade escolar
